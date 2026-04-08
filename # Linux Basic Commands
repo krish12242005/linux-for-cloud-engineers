@@ -1,1 +1,16 @@
+# User Management in Linux
 
+## Create New User
+sudo adduser username
+
+## Change Password
+sudo passwd username
+
+## Delete User
+sudo deluser username
+
+## Show Current User
+whoami
+
+## Show All Users
+cat /etc/passwd
